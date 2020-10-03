@@ -1,0 +1,35 @@
+.container {
+	display: flex;
+}
+
+.q1 {
+	background-color: red;
+	flex: left;
+}
+.q2 {
+
+	flex: right;
+}
+
+.q3 {
+	background-color: blue;
+	flex: top;
+}
+
+.q4 {
+	background-color: green;
+	flex: bottom;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#flex-container > .flex-item {
+  flex: auto;
+}
+
+#flex-container > .raw-item {
+  width: 5rem;
+}
